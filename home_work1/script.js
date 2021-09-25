@@ -53,25 +53,25 @@ user = {
 };
 console.log(user);
 user = 25; // пытаюсь изменить объект на число
-console.log(user); 
+console.log(user);
 
 //то же самое через var
 
 var dog = {
-    // задаю объект через var
-    dogName: "Rex",
-    dogAge: 5,
-  };
-  console.log(dog);
+  // задаю объект через var
+  dogName: "Rex",
+  dogAge: 5,
+};
+console.log(dog);
 
-  dog = {
-    // пытаюсь изменить объект на другой объект
-    userName: "Sharik",
-    userAge: 2,
-  };
-  console.log(dog);
-  dog = 30;   // пытаюсь изменить объект на число
-  console.log(dog); 
+dog = {
+  // пытаюсь изменить объект на другой объект
+  userName: "Sharik",
+  userAge: 2,
+};
+console.log(dog);
+dog = 30; // пытаюсь изменить объект на число
+console.log(dog);
 
-  //VSCode установил
-  //На GitHub аккаунт есть
+//VSCode установил
+//На GitHub аккаунт есть
