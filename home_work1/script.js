@@ -66,8 +66,8 @@ console.log(dog);
 
 dog = {
   // пытаюсь изменить объект на другой объект
-  userName: "Sharik",
-  userAge: 2,
+  dogName: "Sharik",
+  dogAge: 2,
 };
 console.log(dog);
 dog = 30; // пытаюсь изменить объект на число
