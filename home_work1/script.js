@@ -17,14 +17,14 @@ let bigint = 25456866956n; //бигинт
 
 console.log(myName, age, isMan, myDog, undef, product, id, bigint); //вывожу переменные
 
-console.log(typeof myName, typeof myName); //получаю типы данных
-console.log(typeof age, typeof age);
-console.log(typeof isMan, typeof isMan);
-console.log(typeof myDog, typeof myDog); // наблюдаем ошибку языка
-console.log(typeof undef, typeof undef);
-console.log(typeof product, typeof product);
-console.log(typeof id, typeof id);
-console.log(typeof bigint, typeof bigint);
+console.log(typeof myName, typeof (myName)); //получаю типы данных
+console.log(typeof age, typeof (age));
+console.log(typeof isMan, typeof (isMan));
+console.log(typeof myDog, typeof (myDog)); // наблюдаем ошибку языка
+console.log(typeof undef, typeof (undef));
+console.log(typeof product, typeof (product));
+console.log(typeof id, typeof (id));
+console.log(typeof bigint, typeof (bigint));
 
 //myName='Igor'; // пытаюсь изменить переменную, заданную через константу
 
