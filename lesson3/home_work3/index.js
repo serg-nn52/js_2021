@@ -1,4 +1,4 @@
-let firstExample = "кот" > "код";
+let firstExample = "кот" > "код"; 
 //true, сравнение строк посимвольно. В таблице юникод код "т" больше, чем "д"
 
 let secondExample = "2" + 2 * "2";
