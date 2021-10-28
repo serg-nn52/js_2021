@@ -152,6 +152,20 @@
 // }
 // console.log(getDigitsSum(101));
 
+let getDigitsSum = (num) => {
+    let sum = 0;
+    for(let i = 0; i < String(num).length; i+=1){
+        sum = sum + +String(num)[i];
+
+    }
+    if (sum > 9) {
+      return getDigitsSum(sum);
+    } else {
+      return sum;
+    }   
+}
+console.log(getDigitsSum(596));
+
 //  Найдите все года от 1 до 2020, сумма цифр которых равна 13. Для этого используйте вспомогательную функцию getDigitsSum из предыдущей задачи.
 // let n = 0;
 // for (i = 1; i <= 2020; i += 1){
@@ -230,19 +244,19 @@
 
 //  Дано число. Сложите его цифры. Если сумма получилась более 9-ти, опять сложите его цифры. И так, пока сумма не станет однозначным числом (9 и менее).
 
-let myFunc = (num) => {
-  for (let n = 0; ; n += 1) {
-    let sum = 0;
-    for (let i = 0; i < String(num).length; i += 1) {
-      sum = sum + +String(num)[i];
-    }
-    if (sum > 9) {
-      num = sum;
-      sum = 0;
-    } else {
-      return sum;
-    }
-  }
-};
+// let myFunc = (num) => {
+//   for (let n = 0; ; n += 1) {
+//     let sum = 0;
+//     for (let i = 0; i < String(num).length; i += 1) {
+//       sum = sum + +String(num)[i];
+//     }
+//     if (sum > 9) {
+//       num = sum;
+//       sum = 0;
+//     } else {
+//       return sum;
+//     }
+//   }
+// };
 
-console.log(myFunc(89));
+// console.log(myFunc(89));
