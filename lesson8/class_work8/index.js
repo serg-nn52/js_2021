@@ -121,3 +121,4 @@ console.log(obj1, obj2);
 //     console.log(arrRest);
 // }('Лушкин Сергей Николаевич'.split(' '));   
 //
+111
