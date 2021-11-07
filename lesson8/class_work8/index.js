@@ -119,4 +119,5 @@ console.log(obj1, obj2);
 
 // let func = function(...arrRest){
 //     console.log(arrRest);
-// }('Лушкин Сергей Николаевич'.split(' '));
+// }('Лушкин Сергей Николаевич'.split(' '));   
+//
