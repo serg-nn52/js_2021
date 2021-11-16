@@ -121,4 +121,36 @@ console.log(obj1, obj2);
 //     console.log(arrRest);
 // }('Лушкин Сергей Николаевич'.split(' '));   
 //
-111
+
+// const arr = [1,2,3,4,5,6,7,8,9];
+// const newArr = arr.filter((el, index) => index <5);
+// console.log(newArr);
+
+// // let str = '  27071DEK 27046DEK   22504DEK 22540DEK 22502DEK 22536DEK 22500DEK 22536DEK';
+// // console.log(str.trim().replace(/\s+/g,';'));
+
+// let str = prompt('Введите данные','');
+// alert(str.trim().replace(/\s+/g,';'));
+
+// let funk = function(...arr){
+//     console.log(arr);
+// };
+// funk(1,2,3,4,5,6);
+
+// console.log([]===[]);
+
+const arr1 = [1,2,3];
+const arr2 = [4,5,6];
+let arr = [...arr1, 'test', ...arr2];
+console.log(arr);
+
+const obj1 = {
+    name: 'Serg',
+    age: 36
+}
+const obj2 = {
+    name1: 'Kolya',
+    age1: 1
+}
+const obj3 = {...obj1, ...obj2, name2: 'test'};
+console.log(obj3);

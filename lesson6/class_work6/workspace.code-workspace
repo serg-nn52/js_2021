@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\Uber\\src"
+		},
+		{
+			"path": "..\\..\\..\\..\\flowers"
+		},
+		{
+			"path": "..\\..\\..\\..\\bank"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "src"
+	}
+}
